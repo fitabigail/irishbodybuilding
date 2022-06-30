@@ -13,16 +13,17 @@
 body {  
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #3a3a3a;    
+    color: #ffff;    
     display:grid;
     grid-template-columns: auto;
-    grid-template-rows: 100px auto auto 100px ;
+    grid-template-rows: 900px auto 300px ;
+    background-color: #252525;
 }
 li, a {
    font-family:'Oswald', sans-serif;;
     font-weight: 300;
     font-size: 16px;
-    color: #252525;
+    color: #ffff;
     text-decoration: none;
 }
  
@@ -31,7 +32,10 @@ li, a {
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    padding: 30px 10%;
+    padding: 50px 10%;
+    margin-top: 50px;
+    background: transparent;
+    height: 100px;
  }
 
 /*headings and logo*/
@@ -39,19 +43,21 @@ li, a {
 h1, h2 {
     font-family: 'Oswald', sans-serif;    
     letter-spacing: 3px;
-    color: #252525;
+    color: #ffff;
 
 }
-.logo{      
+.logo {      
     margin-right: auto;    
     cursor: pointer;
    }
  
-/*navigations bar*/
+/*navigations menu*/
 
 
  .menu {
     list-style: none;
+    letter-spacing: 3px;
+    font-size: 110%;
  }
 
  .menu li {
@@ -61,9 +67,43 @@ h1, h2 {
 
  .menu li a {
     transition: all 0.3s ease 0s;
+    color: inherit;
     
  }
 
  .menu li a:hover {
     color:#0088a9;
+    border-bottom: 1px solid #0088a9;
+
  }
+
+ .active{ 
+   border-bottom: 1px solid #0088a9;
+ }
+ /* style the hero image */
+
+ .nav-hero{
+   height: 900px;
+   width: 100%;
+   background: url("../images/hero-image.jpg") no-repeat center center;
+   animation-name: hero-zoom;
+   animation-duration: 5s;
+   animation-fill-mode: forwards;
+ }
+
+ /* zoom animations for hero image*/
+ 
+ 
+   @keyframes hero-zoom {
+      from{
+         transform: scale(1);
+         
+      }
+      to{
+         
+         transform: scale(1.1);
+
+      }   
+   
+ }
+
