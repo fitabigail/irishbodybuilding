@@ -6,13 +6,26 @@
     margin: 0;
     border: none;
 }
-body{
-    background-color: aliceblue;
+body{  
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 
     
    /* display:grid;
     grid-template-columns: auto;
     grid-template-rows: 30px auto auto 70px ;*/
 }
+
+/*headingsand logo*/
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+    /*text-transform: uppercase;*/
+    letter-spacing: 3px;
+    color: #252525;
+}
+ #logo{
+    float: left;
+    font-size: 200% ;
+ }
