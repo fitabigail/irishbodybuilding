@@ -1,3 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    border: none;
+}
 body{
     background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    
+   /* display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 30px auto auto 70px ;*/
 }
