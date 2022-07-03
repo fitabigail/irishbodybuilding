@@ -19,6 +19,7 @@ body {
     grid-template-rows: 900px auto 300px ;
     background-color: #252525;
 }
+
 li, a {
    font-family:'Oswald', sans-serif;;
     font-weight: 300;
@@ -36,6 +37,9 @@ li, a {
     margin-top: 50px;
     background: transparent;
     height: 100px;
+
+    
+
  }
 
 /*headings and logo*/
@@ -46,7 +50,14 @@ h1, h2 {
     color: #ffff;
 
 }
-.logo {      
+#cover-text, #font_title{
+
+   line-height:1.2em;
+   font-size: 80px;
+   text-align: center;
+}  
+
+.logo {     
     margin-right: auto;    
     cursor: pointer;
    }
@@ -58,6 +69,7 @@ h1, h2 {
     list-style: none;
     letter-spacing: 3px;
     font-size: 110%;
+    
  }
 
  .menu li {
@@ -72,23 +84,36 @@ h1, h2 {
  }
 
  .menu li a:hover {
-    color:#0088a9;
-    border-bottom: 1px solid #0088a9;
+    color:#e67a16;
+    border-bottom: 1px solid #e67a16;
 
  }
 
  .active{ 
-   border-bottom: 1px solid #0088a9;
+   border-bottom: 1px solid #e67a16;
  }
  /* style the hero image */
 
- .nav-hero{
+ #outer-hero{
+   height: 900px;
+   width: 100%;
+   overflow: hidden;
+
+   /*position: relative;*/
+
+   
+   
+ }
+
+ #hero-image{
    height: 900px;
    width: 100%;
    background: url("../images/hero-image.jpg") no-repeat center center;
    animation-name: hero-zoom;
    animation-duration: 5s;
-   animation-fill-mode: forwards;
+   animation-fill-mode: forwards;  
+
+  
  }
 
  /* zoom animations for hero image*/
@@ -106,4 +131,73 @@ h1, h2 {
       }   
    
  }
+/* cover text hero image*/
 
+.main-hero-text{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   height: 600px;
+}
+
+
+
+#cover-text {
+
+font-size: 130%;
+font-family: Oswald,sans-serif;
+letter-spacing: 3px;
+
+width: 600px;
+height: 200px;
+
+background-color: rgba(238, 108, 34, 0.4);
+
+flex:50%;
+flex-direction: row;
+text-align: center;
+justify-content: center;
+align-items: flex-start;
+/*bottom: 50px;
+left: 30px;
+
+position: absolute;*/
+
+
+}
+
+/* coach and calendar image links*/
+
+.fig_class{
+   width: 50%;
+}
+.fig_class img{
+   width: 100%;
+   height: auto;
+   min-width:100px;
+   border: 5px double #e67a16;
+   border-radius: 50%;
+}
+#coach_im{
+   padding: 10px;
+   flex: 25%;  
+
+}
+
+
+#calend_im{
+
+   padding: 10px;
+   flex: 25%;
+   
+}
+
+/*media query responsivenes*/
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+
+@media (max-width: 800px) {
+   .flex-container {
+     flex-direction: column;
+   }
+}
