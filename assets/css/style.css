@@ -11,6 +11,7 @@
 
 
 body {  
+   
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #ffff;
@@ -55,9 +56,10 @@ li, a {
 .logo {     
     margin-right: auto;    
     cursor: pointer;
+    text-shadow: 4px 4px 7px #000;
    }
 
-
+ 
    h1, h2 {
     font-family: 'Oswald', sans-serif;    
     letter-spacing: 3px;
@@ -90,7 +92,7 @@ li, a {
 
  .menu li a:hover {
     color:#e67a16;
-    border-bottom: 1px solid #e67a16;
+    /*border-bottom: 1px solid #e67a16;*/
     transition-property: color;
     transition-duration: 2s;
 
@@ -117,6 +119,8 @@ li, a {
    height: 900px;
    width: 100%;
    background: url("../images/hero-image.jpg") no-repeat center center;
+   background-size: cover;
+
    animation-name: hero-zoom;
    animation-duration: 3s;
    animation-fill-mode: forwards;  
@@ -143,13 +147,14 @@ li, a {
 
 /* cover text hero image*/
 
-#cover-text {
+#cover-hero-text {
 
-font-size: 130%;
+font-size: 120%;
 font-family: Oswald,sans-serif;
 letter-spacing: 3px;
 padding: auto;
 text-align: center;
+text-shadow: 4px 4px 7px #000;
 
 width: 600px;
 height: 200px;
@@ -164,7 +169,7 @@ position: absolute;
 }
 
 
-#font_cover_title{
+#font-cover-hero-title{
 
    line-height:1.2em;
    font-size: 60px;
@@ -172,76 +177,93 @@ position: absolute;
 }  
 
 
+
 /* coach and calendar image links*/
 
-#main_pages_icons{
-   margin: 0;
-   padding: 0;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;   
-   align-items: center;
+.main-pages-icons {   
+ 
+   display: flex;  
+   align-items: center;  
+   justify-content:space-evenly; 
    
+   flex-direction: row;
+   flex-flow: row wrap;
+   align-content: space-evenly;
 
-   height:600px;
+   min-height:900px;
    width: 100%;
-   justify-content:space-between;
-   align-content: center;
+   
+
    grid-area: fs;
-}
-
-#coach_left{
-   flex: 33%;
-   padding: 20px;
-   
 
 }
 
-#calend_center{
-   flex: 33%;
-   padding: 20px;
-   
-}
+ 
+ .main-pages-icons > div{
 
-#gallery_right{
-   flex: 33%;
-   padding: 20px;
-}
+   height: 600px;
+   width: auto;  
+   padding: 0.5rem;
 
-.fig_class{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+  
+   }
+
+  #icons-heading{
+
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+   align-items:flex-start;
+   align-content: flex-start;
+   margin: 10px;
+   padding: 1.5rem;
+
+   line-height:1.2em;
+   font-size: 60px;
+   text-align: center;
+   text-shadow: 4px 4px 7px #000;
+   background-color: rgba(238, 109, 34, 0.089);
+
+  }
+
+figure {
+
+   display:flex;
+   flex-flow: column;
+   justify-content: center;
    width: 300px;
    height: 300px;
+   
 }
 
-.fig_class img{
+figure img{
 
    width: 100%;
    height: auto;
    min-width:100px;
    border: 5px double #e67a16;
    border-radius: 50%;
+   margin-bottom: 0;
  
-  
-}
-#coach_im{
-   padding: 10px;
-   flex: 25%;  
+  }
 
-}
+figcaption {
+   align-self: center;
+   width: 30vw;
+   text-align: center;
+   margin-top: 10px;
+   text-shadow: 4px 4px 7px #000;
 
-
-#calend_im{
-
-   padding: 10px;
-   flex: 25%;
-   
-}
+ }
 
 /*media query responsivenes*/
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 
-@media (max-width: 600px) {
-   .flex-container {
+@media (max-width: 800px) {
+   .main-pages-icons {
      flex-direction: column;
    }
 }
