@@ -13,11 +13,20 @@
 body {  
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #ffff;    
+    color: #ffff;
+    background-color: #252525; 
+
     display:grid;
-    grid-template-columns: auto;
-    grid-template-rows: 900px auto 300px ;
-    background-color: #252525;
+    
+    /*grid-template-rows: 900px 300px auto 300px ;*/
+    grid:' hd hd hd hd'
+         'fs fs fs fs'
+         'ss ss ss ss'
+         'footer footer footer footer';
+                          
+    
+   
+
 }
 
 li, a {
@@ -34,33 +43,29 @@ li, a {
     justify-content: space-between;
     align-items:center;
     padding: 50px 10%;
-    margin-top: 50px;
-    background: transparent;
+    margin-top: 50px;    
     height: 100px;
-
-    
 
  }
 
+
 /*headings and logo*/
 
-h1, h2 {
+ 
+.logo {     
+    margin-right: auto;    
+    cursor: pointer;
+   }
+
+
+   h1, h2 {
     font-family: 'Oswald', sans-serif;    
     letter-spacing: 3px;
     color: #ffff;
 
 }
-#cover-text, #font_title{
+  
 
-   line-height:1.2em;
-   font-size: 80px;
-   text-align: center;
-}  
-
-.logo {     
-    margin-right: auto;    
-    cursor: pointer;
-   }
  
 /*navigations menu*/
 
@@ -69,7 +74,7 @@ h1, h2 {
     list-style: none;
     letter-spacing: 3px;
     font-size: 110%;
-    
+       
  }
 
  .menu li {
@@ -86,23 +91,26 @@ h1, h2 {
  .menu li a:hover {
     color:#e67a16;
     border-bottom: 1px solid #e67a16;
+    transition-property: color;
+    transition-duration: 2s;
 
  }
 
  .active{ 
    border-bottom: 1px solid #e67a16;
  }
+
  /* style the hero image */
 
- #outer-hero{
+ #outer-hero {
    height: 900px;
    width: 100%;
    overflow: hidden;
 
-   /*position: relative;*/
+   position: relative;     
+   
+   grid-area: hd;
 
-   
-   
  }
 
  #hero-image{
@@ -110,8 +118,9 @@ h1, h2 {
    width: 100%;
    background: url("../images/hero-image.jpg") no-repeat center center;
    animation-name: hero-zoom;
-   animation-duration: 5s;
+   animation-duration: 3s;
    animation-fill-mode: forwards;  
+   grid-area: hd;
 
   
  }
@@ -126,58 +135,93 @@ h1, h2 {
       }
       to{
          
-         transform: scale(1.1);
+         transform: scale(1.05);
 
       }   
    
  }
+
 /* cover text hero image*/
-
-.main-hero-text{
-
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   height: 600px;
-}
-
-
 
 #cover-text {
 
 font-size: 130%;
 font-family: Oswald,sans-serif;
 letter-spacing: 3px;
+padding: auto;
+text-align: center;
 
 width: 600px;
 height: 200px;
 
 background-color: rgba(238, 108, 34, 0.4);
 
-flex:50%;
-flex-direction: row;
-text-align: center;
-justify-content: center;
-align-items: flex-start;
-/*bottom: 50px;
-left: 30px;
+bottom: 100px;
+left: 80px;
 
-position: absolute;*/
-
+position: absolute;
 
 }
+
+
+#font_cover_title{
+
+   line-height:1.2em;
+   font-size: 60px;
+   text-align: center;
+}  
+
 
 /* coach and calendar image links*/
 
-.fig_class{
-   width: 50%;
+#main_pages_icons{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;   
+   align-items: center;
+   
+
+   height:600px;
+   width: 100%;
+   justify-content:space-between;
+   align-content: center;
+   grid-area: fs;
 }
+
+#coach_left{
+   flex: 33%;
+   padding: 20px;
+   
+
+}
+
+#calend_center{
+   flex: 33%;
+   padding: 20px;
+   
+}
+
+#gallery_right{
+   flex: 33%;
+   padding: 20px;
+}
+
+.fig_class{
+   width: 300px;
+   height: 300px;
+}
+
 .fig_class img{
+
    width: 100%;
    height: auto;
    min-width:100px;
    border: 5px double #e67a16;
    border-radius: 50%;
+ 
+  
 }
 #coach_im{
    padding: 10px;
@@ -196,8 +240,19 @@ position: absolute;*/
 /*media query responsivenes*/
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
    .flex-container {
      flex-direction: column;
    }
+}
+
+.competitions{
+   grid-area: ss;
+   background-color: #e67a16;
+}
+
+footer {
+
+   grid-area: footer;
+   background-color: aqua;
 }
