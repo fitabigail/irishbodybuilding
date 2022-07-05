@@ -19,7 +19,7 @@ body {
 
     display:grid;
     
-    /*grid-template-rows: 900px 300px auto 300px ;*/
+    grid-template-rows: 900px 900px 600px 300px;
     grid:' hd hd hd hd'
          'fs fs fs fs'
          'ss ss ss ss'
@@ -44,7 +44,7 @@ li, a {
     justify-content: space-between;
     align-items:center;
     padding: 50px 10%;
-    margin-top: 50px;    
+  
     height: 100px;
 
  }
@@ -109,7 +109,7 @@ li, a {
    width: 100%;
    overflow: hidden;
 
-   position: relative;     
+   position: relative; 
    
    grid-area: hd;
 
@@ -149,6 +149,8 @@ li, a {
 
 #cover-hero-text {
 
+
+
 font-size: 120%;
 font-family: Oswald,sans-serif;
 letter-spacing: 3px;
@@ -156,12 +158,15 @@ padding: auto;
 text-align: center;
 text-shadow: 4px 4px 7px #000;
 
-width: 600px;
-height: 200px;
+width: 650px;
+height: 250px;
 
-background-color: rgba(238, 108, 34, 0.4);
 
-bottom: 100px;
+/*background-color: rgba(238, 108, 34, 0.4);*/
+
+background-color: rgba(238, 109, 34, 0.089);
+border: 5px double #e67a16;
+bottom: 150px;
 left: 80px;
 
 position: absolute;
@@ -176,7 +181,20 @@ position: absolute;
    text-align: center;
 }  
 
+.button {
 
+   background-color: #ffff;
+   /*border: 2px double #e67a16;*/
+   border: none;
+   color: #000;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1rem;
+ }
+ 
+ 
 
 /* coach and calendar image links*/
 
@@ -218,14 +236,17 @@ position: absolute;
    justify-content:flex-start;
    align-items:flex-start;
    align-content: flex-start;
+  
    margin: 10px;
-   padding: 1.5rem;
+   padding: 1.5em;
 
    line-height:1.2em;
    font-size: 60px;
    text-align: center;
    text-shadow: 4px 4px 7px #000;
    background-color: rgba(238, 109, 34, 0.089);
+   border: 5px double #e67a16;
+   
 
   }
 
@@ -268,13 +289,60 @@ figcaption {
    }
 }
 
+   /*competitions section*/
 .competitions{
-   grid-area: ss;
-   background-color: #e67a16;
+
+display: flex;
+
+grid-area: ss;
 }
 
-footer {
+.competitions-container{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   justify-items: center;
+   align-items: center;
+   
+
+   margin: 20px;
+   padding: 10px;
+
+   grid-area: ss;
+  
+}
+
+.competitions-container > div{
+
+  background-color: transparent;
+  align-content: center;
+  flex-flow: column wrap;
+  min-width: 100px;
+  height: 600px;
+  margin: 10px;
+  text-align:center;
+  line-height: 20px;
+  font-size: 1rem;
+   
+}
+
+footer{
+
+   padding: 20px;
+   text-align: center;
+   background: #ddd;
+
+   height: 300px;
+   width: auto;
 
    grid-area: footer;
-   background-color: aqua;
+   background-color: rgba(19, 20, 20, 0.384);
 }
+
+@media screen and (max-width: 700px) {
+   #outer-hero, header {   
+     flex-direction: column;
+   }
+ }
+ 
