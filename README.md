@@ -1,4 +1,4 @@
-# H1 Irishbodybuilding# H1
+# Irishbodybuilding
 
 Irishbodybuilding,
 
