@@ -4,8 +4,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-  
+    margin: 0;  
     
 }
 
@@ -14,20 +13,18 @@ body {
    
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #ffff;
+    color: #fff;
     background-color: #252525; 
-
-    display:grid;
+    /*background: linear-gradient(to left #252525, #7e7e7e);*/
     
-    grid-template-rows: 900px 900px 600px 300px;
-    grid:' hd hd hd hd'
+    display:grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid:'hd hd hd hd'
          'fs fs fs fs'
          'ss ss ss ss'
-         'footer footer footer footer';
+         'footer footer footer footer';    
                           
     
-   
-
 }
 
 li, a {
@@ -59,15 +56,13 @@ li, a {
     text-shadow: 4px 4px 7px #000;
    }
 
- 
+   
    h1, h2 {
     font-family: 'Oswald', sans-serif;    
     letter-spacing: 3px;
     color: #ffff;
 
 }
-  
-
  
 /*navigations menu*/
 
@@ -98,13 +93,14 @@ li, a {
 
  }
 
- .active{ 
+ .active { 
    border-bottom: 1px solid #e67a16;
  }
 
  /* style the hero image */
 
  #outer-hero {
+   
    height: 900px;
    width: 100%;
    overflow: hidden;
@@ -115,7 +111,8 @@ li, a {
 
  }
 
- #hero-image{
+ #hero-image {   
+
    height: 900px;
    width: 100%;
    background: url("../images/hero-image.jpg") no-repeat center center;
@@ -124,6 +121,7 @@ li, a {
    animation-name: hero-zoom;
    animation-duration: 3s;
    animation-fill-mode: forwards;  
+
    grid-area: hd;
 
   
@@ -149,8 +147,6 @@ li, a {
 
 #cover-hero-text {
 
-
-
 font-size: 120%;
 font-family: Oswald,sans-serif;
 letter-spacing: 3px;
@@ -160,9 +156,6 @@ text-shadow: 4px 4px 7px #000;
 
 width: 650px;
 height: 250px;
-
-
-/*background-color: rgba(238, 108, 34, 0.4);*/
 
 background-color: rgba(238, 109, 34, 0.089);
 border: 5px double #e67a16;
@@ -183,8 +176,7 @@ position: absolute;
 
 .button {
 
-   background-color: #ffff;
-   /*border: 2px double #e67a16;*/
+   background-color: #ffff;  
    border: none;
    color: #000;
    padding: 15px 32px;
@@ -196,7 +188,7 @@ position: absolute;
  
  
 
-/* coach and calendar image links*/
+/* coach, calendar and gallery image links*/
 
 .main-pages-icons {   
  
@@ -208,12 +200,11 @@ position: absolute;
    flex-flow: row wrap;
    align-content: space-evenly;
 
-   min-height:900px;
-   width: 100%;
-   
+   min-height:600px;
+   width: 100%; 
+   margin-top: 60px;  
 
    grid-area: fs;
-
 }
 
  
@@ -245,10 +236,10 @@ position: absolute;
    text-align: center;
    text-shadow: 4px 4px 7px #000;
    background-color: rgba(238, 109, 34, 0.089);
-   border: 5px double #e67a16;
-   
+   border: 5px double #e67a16;   
 
   }
+
 
 figure {
 
@@ -260,7 +251,7 @@ figure {
    
 }
 
-figure img{
+figure img {
 
    width: 100%;
    height: auto;
@@ -280,7 +271,7 @@ figcaption {
 
  }
 
-/*media query responsivenes*/
+/*media query responsivenes forpages-icons- section*/
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 
 @media (max-width: 800px) {
@@ -290,43 +281,58 @@ figcaption {
 }
 
    /*competitions section*/
-.competitions{
 
-display: flex;
+.competitions-wrapper{  
 
-grid-area: ss;
-}
-
-.competitions-container{
-
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   justify-items: center;
-   align-items: center;
-   
-
-   margin: 20px;
+   min-height:900px;
+   width: 100%; 
+  
    padding: 10px;
-
+   background: url("../images/competitions-bg.jpg") no-repeat center center;
+   background-size: cover;
+   background-color: hsla(0, 0%, 0%, 0.041);
+   display: grid;
+   column-gap: 50px;
+   justify-content:space-around;
+   align-content: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-area: ss;
   
 }
 
-.competitions-container > div{
-
-  background-color: transparent;
+.competitions-wrapper > div{
+    
+  
+  align-items: center;
+  justify-content:space-between;
   align-content: center;
-  flex-flow: column wrap;
-  min-width: 100px;
-  height: 600px;
+
+  
   margin: 10px;
   text-align:center;
-  line-height: 20px;
-  font-size: 1rem;
-   
+  line-height: 25px;
 }
 
+/*media competitions */
+ /* Mobile View */
+ @media screen and (min-width:250px) and (max-width:480px) {
+   .competitions-wrapper{
+     grid-template-columns: repeat(1,1fr);
+   }
+ }
+
+  /* Tablet View */
+  @media screen and (min-width:481px) and (max-width:768px) {
+   .competitions-wrapper{
+     grid-template-columns: repeat(2,1fr);
+   }
+ }
+  /* Laptop View */
+  @media screen and (min-width:769px) and (max-width:1024px) {
+   .container{
+     grid-template-columns: repeat(4,1fr);
+   }
+ }
 footer{
 
    padding: 20px;
