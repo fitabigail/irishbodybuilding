@@ -36,11 +36,13 @@ li, a {
 }
  
  header {  
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
     padding: 50px 10%;
+    align-items: baseline;
   
     height: 100px;
 
@@ -97,6 +99,16 @@ li, a {
    border-bottom: 1px solid #e67a16;
  }
 
+ /*@media (max-width: 768px) {
+   header, .menu{
+     flex-direction: row;
+   }
+}
+@media (min-width: 768px) {
+   header, .menu{
+     flex-direction: column;
+   }
+}*/
  /* style the hero image */
 
  #outer-hero {
@@ -142,6 +154,7 @@ li, a {
       }   
    
  }
+
 
 /* cover text hero image*/
 
@@ -440,4 +453,16 @@ figcaption {
 
       flex-direction:column;
    }
+}
+
+
+/*CALENDAR PAGE STYLE*/
+.calendar-container{
+   display: block;
+}
+
+.calendar{
+
+   display: grid;
+   width: 100%;
 }
