@@ -33,6 +33,7 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
   Particularly the Modal Pop Ups  
 * https://www.thelimitfit.com/ This is the base for my website layout I have used some ideas and adapted to my own layout.
 * https://css-tricks.com/ I have use the media query inspiration.
+* 
 
 # Imagery for Project
 
@@ -44,3 +45,8 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
  + Front Gallery Icon : https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg?cs=srgb&dl=pexels-victor-freitas-841128.jpg&fm=jpg
  + Coach Card Image : https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?cs=srgb&dl=pexels-pikx-by-panther-1547248.jpg&fm=jpg
  + Coach card 2 Image: https://images.pexels.com/photos/896059/pexels-photo-896059.jpeg?cs=srgb&dl=pexels-dreamlens-production-896059.jpg&fm=jpg
+ + Coach card 3 Image : https://images.pexels.com/photos/1480520/pexels-photo-1480520.jpeg?cs=srgb&dl=pexels-sabel-blanco-1480520.jpg&fm=jpg
+ + Coach card 4 Image: https://images.pexels.com/photos/1756959/pexels-photo-1756959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+ + Coach card 5 Image: https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+ + Coach card 6 Image: [https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?cs=srgb&dl=pexels-pixabay-38630.jpg&fm=jpg](https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+ + Coa
