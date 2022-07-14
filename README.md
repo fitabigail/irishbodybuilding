@@ -25,7 +25,7 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
    * Balsamiq used to build the wireframes for my project. https://balsamiq.com
    * Google Fonts for my font choose for the project. https://fonts.google.com      
    * Free Convert - for compressing my images for better upload time . https://www.freeconvert.com/image-compressor   
-   * Free Image souce [https://www.pexels.com/]
+   * Free Image souce https://www.pexels.com/
    * W3C Validators both HTML and CSS to keep a check on my code. The W3C Markup Validation Service [https://validator.w3.org]
  
 # Copied Code / Code assistance 
