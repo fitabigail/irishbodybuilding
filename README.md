@@ -31,14 +31,14 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
 # Copied Code / Code assistance 
 * W3S School for code assistance and information. //https://www.w3schools.com/howto/howto_css_modals.asp
   Particularly the Modal Pop Ups  
-*  [https://www.thelimitfit.com/] This is the base for my website layout I have used some ideas and adapted to my own layout.
-*  [https://css-tricks.com/] I have use the media query inspiration.
+* https://www.thelimitfit.com/ This is the base for my website layout I have used some ideas and adapted to my own layout.
+* https://css-tricks.com/ I have use the media query inspiration.
 
 # Imagery for Project
 
  * Images obtained 
- * Hero Background Image: [https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-gorak-1229356.jpg&fm=jpg]
- + Competitons Background Section : [https://images.pexels.com/photos/896062/pexels-photo-896062.jpeg?cs=srgb&dl=pexels-dreamlens-production-896062.jpg&fm=jpg]
- + Front Coach Icon: [https://images.pexels.com/photos/9073247/pexels-photo-9073247.jpeg?cs=srgb&dl=pexels-wagner-robson-9073247.jpg&fm=jpg]
- + Front Competition Calendar Icon : [https://images.pexels.com/photos/5518867/pexels-photo-5518867.jpeg?cs=srgb&dl=pexels-michelle-tiemann-5518867.jpg&fm=jpg]
- + Front Gallery Icon : [https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg?cs=srgb&dl=pexels-victor-freitas-841128.jpg&fm=jpg]
+ * Hero Background Image: https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-gorak-1229356.jpg&fm=jpg
+ + Competitons Background Section : https://images.pexels.com/photos/896062/pexels-photo-896062.jpeg?cs=srgb&dl=pexels-dreamlens-production-896062.jpg&fm=jpg
+ + Front Coach Icon: https://images.pexels.com/photos/9073247/pexels-photo-9073247.jpeg?cs=srgb&dl=pexels-wagner-robson-9073247.jpg&fm=jpg
+ + Front Competition Calendar Icon : https://images.pexels.com/photos/5518867/pexels-photo-5518867.jpeg?cs=srgb&dl=pexels-michelle-tiemann-5518867.jpg&fm=jpg
+ + Front Gallery Icon : https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg?cs=srgb&dl=pexels-victor-freitas-841128.jpg&fm=jpg
