@@ -43,3 +43,4 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
  + Front Competition Calendar Icon : https://images.pexels.com/photos/5518867/pexels-photo-5518867.jpeg?cs=srgb&dl=pexels-michelle-tiemann-5518867.jpg&fm=jpg
  + Front Gallery Icon : https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg?cs=srgb&dl=pexels-victor-freitas-841128.jpg&fm=jpg
  + Coach Card Image : https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?cs=srgb&dl=pexels-pikx-by-panther-1547248.jpg&fm=jpg
+ + Coach card 2 Image: https://images.pexels.com/photos/896059/pexels-photo-896059.jpeg?cs=srgb&dl=pexels-dreamlens-production-896059.jpg&fm=jpg
