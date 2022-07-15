@@ -279,10 +279,10 @@ footer {
     flex-flow: column wrap;
     flex-grow: 1;
     flex-basis: 100%;
-   
-   
+      
     
  }
+
  .social-contact h1 {
  
     margin-bottom: 20px;
@@ -531,7 +531,7 @@ button:hover {
 }
 @media only screen and (min-width: 498px)
 {
-   .footer-container{
+   .card{
 
       flex-direction:column;
    }
