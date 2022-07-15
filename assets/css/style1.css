@@ -516,3 +516,69 @@ button:hover {
 .btn:focus {
    outline: 2px solid #16151449;
  }
+
+ /* Media query COACHES PAGE */
+
+/* Medium screens */
+
+
+@media only screen and (max-width: 800px)
+{
+   .card{
+
+      flex-direction:column;
+   }
+}
+@media only screen and (min-width: 498px)
+{
+   .footer-container{
+
+      flex-direction:column;
+   }
+}
+
+/* Mobile View */
+
+@media screen and (min-width:250px) and (max-width:480px) {
+   .container-coaches{
+     
+      grid-template-columns: repeat(1, 1fr);
+     
+   }
+   .grid-title{
+      grid-template-columns: 1fr;
+   }
+
+   .coach {
+      grid-template-columns: repeat(1, 1fr) ;
+   }
+ }
+
+  /* Tablet View */
+
+  @media screen and (min-width:481px) and (max-width:768px) {
+   .container-coaches{
+     grid-template-columns: repeat(2,1fr);
+   }
+   .grid-title{
+      grid-template-columns: 1fr;
+   }
+
+   .coach {
+      grid-template-columns: repeat(2, 1fr) ;
+   }
+ }
+ /* Laptop View */
+  
+ @media screen and (min-width:769px) and (max-width:1024px) {
+   .container-coaches{
+     grid-template-columns: repeat(6, 1fr);
+   }
+   .grid-title{
+      grid-template-columns: 1fr;
+   }
+
+   .coach {
+      grid-template-columns: repeat(3, 1fr) ;
+   }
+}
