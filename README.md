@@ -33,7 +33,9 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
   Particularly the Modal Pop Ups  
 * https://www.thelimitfit.com/ This is the base for my website layout I have used some ideas and adapted to my own layout.
 * https://css-tricks.com/ I have use the media query inspiration.
-* 
+* https://codepen.io/blackellis/pen/jObGbeG This is the base for my Coaches Page from where I have used ideas and some of the code from there I tried to adapt it as possible
+
+
 
 # Imagery for Project
 
