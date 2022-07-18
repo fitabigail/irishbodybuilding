@@ -523,7 +523,7 @@ flex: 1;
 
 /* CALENDAR PAGE */
 
-.calendar-header{
+.pages_header{
 
    background-color: rgba(238, 109, 34, 0.089);
    padding-bottom: 20px;
@@ -608,3 +608,185 @@ flex: 1;
      flex-direction: column;
    }
  }
+
+ /* COACHES PAGE */
+
+ .container-coaches{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   margin: 0 auto;
+   padding: 40px;
+   background-image: url('/assets/images/hero-image.jpg');
+   background-size: cover;
+  
+  
+   background-attachment: fixed; 
+ }
+
+ .coach_title{
+   flex: 1;
+
+   background-color: #25252593; 
+   padding: 60px 40px ;  
+   margin-bottom: 20px;
+  
+
+   
+ }
+
+ .coach{
+   flex: 1;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   
+ 
+ }
+
+.card{
+  
+   flex-basis: 30%;   
+   padding: 40px 20px;
+   box-sizing: border-box;
+   background-color: hsla(33, 6%, 35%, 0.103);
+  
+   border-radius: 5px;
+   border-bottom: 1px solid #ca8340;
+   display: flex;
+   flex-direction: column;
+   align-items: center;   
+   color: white;
+}
+
+.card-name{
+   margin-top: 15px;
+   font-size: 2em;
+   text-transform: uppercase;
+ }
+
+ .card img{
+
+   height: 160px;
+   width: 160px;
+   
+   min-width:100px;
+   border: 3px double #e67a16;
+   border-radius: 50%;
+   margin-bottom: 0;
+   box-shadow: 0 10px 50px rgba(182, 96, 38, 0.582);
+
+ }
+
+ .icons {
+   padding: 0;
+   list-style: none;
+   margin: 1em;
+ }
+
+ .icons li{
+   display: inline-block;
+   margin: 0.15em;
+   position: relative;
+   font-size: 1em;
+ }
+
+ .icons i{
+   color: #fff;
+  position: absolute;
+  top: 0.95em;
+  left: 0.96em;
+  transition: all 265ms ease-out;
+ }
+
+ .icons a{
+   display: inline-block;
+ }
+
+ .icons a:before {
+   transform: scale(1);
+   -ms-transform: scale(1);
+   -webkit-transform: scale(1);
+   content: " ";
+   width: 45px;
+   height: 45px;
+   border-radius: 100%;
+   display: block;
+   background: linear-gradient(45deg, #0c0c0b, #ca8340);
+   transition: all 265ms ease-out;
+ }
+
+ .icons a:hover:before {
+   transform: scale(0);
+   transition: all 265ms ease-in;
+ }
+
+ .icons a:hover i {
+   transform: scale(2.2);
+   -ms-transform: scale(2.2);
+   -webkit-transform: scale(2.2);
+   color: #e67a16;
+   background: -webkit-linear-gradient(45deg,#e67a16, #ca8340);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   transition: all 265ms ease-in;
+ }
+ 
+ .btn{
+   background-color: #ffff;
+  
+   border: none;
+   cursor: pointer;
+   line-height: 1.5;
+   font: 300 1rem;
+   padding: 0.5em 2em;
+   letter-spacing: 3px;
+   margin: 1em;
+   width: 10rem;
+   text-shadow: 4px 4px 7px #000;
+   transition-duration: 0.4s;  
+   
+    text-align: center;   
+    display: inline-block;
+    
+ }
+
+ .btn h2{
+   color:#252525;
+   text-transform: uppercase;
+}
+
+button:hover {
+   background-color: #ca8340;
+   color: #ffff;
+}
+.btn:focus {
+   outline: 2px solid #16151449;
+ }
+
+ /* Media query COACHES PAGE */
+
+/* Medium screens */
+
+
+@media only screen and (min-width: 800px)
+{
+
+  
+   .coach{
+
+      flex-direction:row;
+   }
+}
+
+@media only screen and (max-width: 768px)
+{
+  
+
+   .coach{
+
+      flex-direction:column;
+   }
+}
