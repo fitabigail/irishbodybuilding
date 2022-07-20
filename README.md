@@ -51,4 +51,12 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
  + Coach card 4 Image: https://images.pexels.com/photos/1756959/pexels-photo-1756959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
  + Coach card 5 Image: https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
  + Coach card 6 Image: [https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?cs=srgb&dl=pexels-pixabay-38630.jpg&fm=jpg](https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
- + Coa
+ + Gallery image 1: https://unsplash.com/photos/69bBvvFkg9I;
+ + Gallery image 2: https://images.pexels.com/photos/762579/pexels-photo-762579.jpeg?cs=srgb&dl=pexels-patricia-hildebrandt-762579.jpg&fm=jpg;
+ + Gallery image 3: https://c.pxhere.com/photos/59/53/bodybuilding_fitness_model-895340.jpg!d;
+ + Gallery image 4: https://c.pxhere.com/photos/c3/b2/bodybuilding_fitness_model-895358.jpg!d;
+ + Gallery image 5: https://c.pxhere.com/photos/0b/09/bodybuilding_fitness_model-895338.jpg!d;
+ + Gallery image 6: https://c.pxhere.com/photos/d0/cc/bodybuilding_fitness_model-895353.jpg!d;
+ + Gallery image 7: https://images.unsplash.com/photo-1632781297772-1d68f375d878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80;
+ + Gallery image 8: https://images.unsplash.com/photo-1619947664010-b3e60071a3c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80;
+ 
