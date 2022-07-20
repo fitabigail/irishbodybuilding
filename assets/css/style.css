@@ -143,9 +143,12 @@ li, a {
     border-bottom: 1px solid #e67a16;
   }
 
-  #outer-hero {
-   
-   
+  .pages_header{
+   background-color: #1d1b1ba9;
+ }
+
+
+  #outer-hero {  
    
    height: 900px;
    width: 100%;
@@ -153,9 +156,7 @@ li, a {
   
  }
 
- .pages_header{
-   background-color: #1d1b1b2a;
- }
+ 
 
  #hero-image {   
    display: flex;
@@ -428,7 +429,7 @@ flex: 1;
 }
 
 .footer-container{
-   max-width: auto;
+   width: auto;
    margin: auto;
 
    display: flex;
@@ -590,8 +591,7 @@ flex: 1;
   .event{
    flex: 1;
    letter-spacing: 3px;
-   list-style: none;   
-
+  
   }
 
   .event-date{
@@ -737,17 +737,15 @@ flex: 1;
    margin: 1em;
    width: 10rem;
    text-shadow: 4px 4px 7px #000;
-   transition-duration: 0.4s;  
+   transition-duration: 0.4s; 
+   color:#252525;
+   text-transform: uppercase;
+   
    
     text-align: center;   
     display: inline-block;
     
  }
-
- .btn h2{
-   color:#252525;
-   text-transform: uppercase;
-}
 
 
 button:hover {
@@ -899,13 +897,11 @@ justify-content: center;
    border-radius: 25px;
     text-align: center;   
     display: inline-block;
-    
+    color:#252525;
+   text-transform: uppercase;
  }
 
- .btn_contact h2{
-   color:#252525;
-   text-transform: uppercase;
-}
+ 
 
 .btn_contact:hover {
    background-color: #ca8340;
@@ -988,6 +984,8 @@ background-size: cover;
    border-radius: 25px;
 }
 
+/* Google Map style */
+
  .google_map{
 
    flex: 1;
@@ -1000,6 +998,21 @@ background-size: cover;
    align-items: center;
   
  }
+
+ .mapouter {
+   position: relative;
+   text-align: right;
+   height: 221px;
+   width: 1039px;
+}
+
+.gmap_canvas {
+   overflow: hidden;
+   background: none !important;
+   height: 221px;
+   width: 1039px;
+}
+
 
 @media screen and (min-width: 800px)  {
 
