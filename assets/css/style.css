@@ -164,7 +164,7 @@ li, a {
    flex-direction: column;
    height: 900px;
    width: 100%;
-   background: url("../images/hero-image.jpg") no-repeat center center;
+   background: url("https://res.cloudinary.com/dlpvlra1t/image/upload/v1658322748/Irishbodybuilding/hero-image1_yirtq5.jpg") no-repeat center center;
    background-size: cover;
 
    animation-name: hero-zoom;
@@ -225,8 +225,6 @@ height: auto;
 
 background-color: rgba(238, 109, 34, 0.089);
 border: 5px double #e67a16;
-/*bottom: 150px;
-left: 80px;*/
 
 
 }
@@ -530,7 +528,7 @@ flex: 1;
     flex-direction: column;
     width: auto;
     margin: 0 auto;
-    background: url("../images/hero-image.jpg") no-repeat center center;
+    background: url("https://res.cloudinary.com/dlpvlra1t/image/upload/v1658322748/Irishbodybuilding/hero-image1_yirtq5.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 
@@ -615,7 +613,7 @@ flex: 1;
    width: auto;
    margin: 0 auto;
    padding: 40px;
-   background-image: url('/assets/images/hero-image.jpg');
+   background-image: url('https://res.cloudinary.com/dlpvlra1t/image/upload/v1658322748/Irishbodybuilding/hero-image1_yirtq5.jpg');
    background-size: cover;    
    background-attachment: fixed; 
  }
