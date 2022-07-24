@@ -19,7 +19,7 @@ At the bottom of each page the user can easy access the media icons for Facebook
 
 
 
-![HOME PAGE](./assets/readmeimg/hOME-PAGE.png)
+![HOME PAGE](./assets/reademeimg/hOME-PAGE.png)
 
 # Features
 
