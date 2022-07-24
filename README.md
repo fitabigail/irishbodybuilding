@@ -4,24 +4,12 @@ Irishbodybuilding,
 
 The Irishbodybuilding website is a landing page for new and experienced bodybuilders athlets looking for competitional performance. The Irishbodybuilding offers a guide for main bodybuilding organizations, trainers and a competitional calendar.
 
-![HOME PAGE](./assets/reademeimg/Imresponsive.png)
-
-# UX
-
-I aimed for a visually appealing website that has a bodybuilding theme with a  pages flow  easy and intuitive. Diffrent text, images are linked with related pages by a click. The color scheme is keep all over the website, and reading is easy and visible.
-the hero images theme on  Home Page   is direct related with the wesite subject, and it has a zoom animations.
-The Logo on navigationbar is linked with Home Page, and all navigations items has a color transition for 2s to improve user visual experience.
-The Hero Cover Text has a message with a call to action by clicking the button. On hovering the button has a pointer cursor which will call the user to click.The button will help the user to navigate straight to Coaches Page.
-On the center of the page the user can access the Coaches, Calendar and Gallery page by clicking either the images or the text. The pointer cursor will show the image and text are linked with related pages.
-
-The competitons section on Home Page is easy to read, and give some information about the main bodybuilding federations. The background is a dark image and the text is white for easy reading and visibility.
-
-At the bottom of each page the user can easy access the media icons for Facebook, Twitter and Instagram pages, and he can subscribe to website Newsletter.
+![HOME PAGE](./assets/reademeimg/Iamresponsive.png)
 
 
 
 
-![HOME PAGE](./assets/reademeimg/hOME-PAGE.png)
+![HOME PAGE](./assets/reademeimg/home-wireframe.png)
 
 
 # Existing Features
