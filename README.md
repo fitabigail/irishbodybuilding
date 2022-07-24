@@ -212,9 +212,21 @@ At the bottom of each page the user can easy access the media icons for Facebook
 * https://codepen.io/blackellis/pen/jObGbeG This is the base for my Coaches Page from where I have used ideas and some of the code from there I tried to adapt it as possible
 * Contact Form design with CSS Flexbox | CSS Flexbox Layout https://www.youtube.com/watch?v=fQfAYUrggeU
 
+# Deployment of Project
 
+* Deployment was made possible by GitHub
 
-# Imagery for Project
+    + Initiated a repository in git : 
+    + Created all folders and files and code project
+    + Go to GitHub website
+    + Go to my repository in the GitHub
+    + Go to Settings tab click on
+    + Go to GitHub Page and linking the main root to Master Branch 
+    + Once this is done the page will automatically create the ribbon with the http host page name that is been hosted by GitHub.
+    The live link can be found here : 
+   
+
+# Images for Project
 
  * Images obtained 
  * Hero Background Image: https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-gorak-1229356.jpg&fm=jpg
