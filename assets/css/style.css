@@ -1009,6 +1009,16 @@ text-transform: none;
   
  }
  
+ .map_title{
+  
+   font-weight: 600;
+   font-size: 25px;
+   margin: 0 0 30px;
+   padding-left: 200px;
+   box-shadow: 0 40px 20px rgba(0, 0, 0, 0.5);
+   
+
+ }
  
 @media screen and (min-width: 800px)  {
 
@@ -1024,4 +1034,17 @@ text-transform: none;
 
    }
     
+}
+
+@media screen and ( max-width: 320px) {
+
+   .img_area{
+      display: none;
+   }
+
+   
+   .right_text{
+      margin: 30px 25px;
+      text-align: center;
+   }
 }
