@@ -596,6 +596,12 @@ flex: 1;
   .event-date{
    padding-bottom: 10px;
   }
+  .event-date a:hover {
+   color:#e67a16;   
+   
+  }
+
+  /* Media query Calendar Page */
 
   @media screen and (min-width: 500px) {
    .calendar-container {
@@ -933,8 +939,7 @@ background-size: cover;
 }
 
 .left_text{
-   /*display: flex;
-   flex-flow: column wrap;*/
+   
    padding: 100px 80px;
    color: #fff;
    font-size: 25px;
