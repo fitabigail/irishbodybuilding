@@ -200,15 +200,17 @@ At the bottom of each page the user can easy access the media icons for Facebook
    * Balsamiq used to build the wireframes for my project. https://balsamiq.com
    * Google Fonts for my font choose for the project. https://fonts.google.com      
    * Free Convert - for compressing my images for better upload time . https://www.freeconvert.com/image-compressor   
-   * Free Image souce https://www.pexels.com/
+   * Free image resize https://www.befunky.com/create/resize-image/
+   * Free Image souce https://www.pexels.com/ , https://unsplash.com/
    * W3C Validators both HTML and CSS to keep a check on my code. The W3C Markup Validation Service [https://validator.w3.org]
  
 # Copied Code / Code assistance 
-* W3S School for code assistance and information. //https://www.w3schools.com/howto/howto_css_modals.asp
-  Particularly the Modal Pop Ups  
+
+* W3S School for code assistance and information. 
 * https://www.thelimitfit.com/ This is the base for my website layout I have used some ideas and adapted to my own layout.
 * https://css-tricks.com/ I have use the media query inspiration.
 * https://codepen.io/blackellis/pen/jObGbeG This is the base for my Coaches Page from where I have used ideas and some of the code from there I tried to adapt it as possible
+* Contact Form design with CSS Flexbox | CSS Flexbox Layout https://www.youtube.com/watch?v=fQfAYUrggeU
 
 
 
