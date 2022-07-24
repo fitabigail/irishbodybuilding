@@ -18,7 +18,7 @@ body {
 }
 
 .content-wrap{
-    display: flex;
+    display: flex;    
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
@@ -153,13 +153,14 @@ li, a {
    height: 900px;
    width: 100%;
    overflow: hidden;  
-  
+    flex-basis: auto;
  }
 
  
 
  #hero-image {   
    display: flex;
+ 
    flex-direction: column;
    height: 900px;
    width: 100%;
@@ -224,8 +225,8 @@ height: auto;
 
 background-color: rgba(238, 109, 34, 0.089);
 border: 5px double #e67a16;
-bottom: 150px;
-left: 80px;
+/*bottom: 150px;
+left: 80px;*/
 
 
 }
@@ -277,7 +278,7 @@ left: 80px;
 .main-pages-icons {   
  
    display: flex;  
-      
+   flex-basis: auto;  
    flex-flow: column wrap; 
   
    margin: 40px auto;  
@@ -389,7 +390,7 @@ flex: 1;
  /* COMPETITION Section*/
 
  .competitions-wrapper { 
-  
+ flex-basis: auto;
  padding: 60px 40px;
  margin: 40px auto 0;
  
@@ -419,7 +420,7 @@ flex: 1;
  /* FOOTER */
 
  footer {  
-     
+   flex-basis: auto; 
    height: auto;
    width: 100%;
    padding: 20px 10px;  
