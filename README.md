@@ -216,14 +216,14 @@ At the bottom of each page the user can easy access the media icons for Facebook
 
 * Deployment was made possible by GitHub
 
-    + Initiated a repository in git : 
+    + Initiated a repository in git :  https://fitabigail.github.io/irishbodybuilding/
     + Created all folders and files and code project
     + Go to GitHub website
     + Go to my repository in the GitHub
     + Go to Settings tab click on
     + Go to GitHub Page and linking the main root to Master Branch 
     + Once this is done the page will automatically create the ribbon with the http host page name that is been hosted by GitHub.
-    The live link can be found here : 
+    The live link can be found here :  https://fitabigail.github.io/irishbodybuilding/
    
 
 # Images for Project
@@ -249,3 +249,7 @@ At the bottom of each page the user can easy access the media icons for Facebook
  + Gallery image 7: https://images.unsplash.com/photo-1632781297772-1d68f375d878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80;
  + Gallery image 8: https://images.unsplash.com/photo-1619947664010-b3e60071a3c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80;
  
+ +  ### Note 
+ * All information within this website is for education and training purposes only .
+ * All code has been as much as possible credited to the source that the code came from 
+ * I would like to thank everyone for all and any assistance given during the development of my website. 
