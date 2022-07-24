@@ -190,6 +190,7 @@ At the bottom of each page the user can easy access the media icons for Facebook
    * Free Convert - for compressing my images for better upload time . https://www.freeconvert.com/image-compressor   
    * Free image resize https://www.befunky.com/create/resize-image/
    * Free Image souce https://www.pexels.com/ , https://unsplash.com/
+   * Cloud stored images https://cloudinary.com/
    * W3C Validators both HTML and CSS to keep a check on my code. The W3C Markup Validation Service [https://validator.w3.org]
  
 # Copied Code / Code assistance 
