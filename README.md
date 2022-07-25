@@ -239,9 +239,9 @@ The live Project can be found [here](https://fitabigail.github.io/irishbodybuild
 
 ***
 
-    # Deployment of Project
+# Deployment of Project
     
-    * Project Creation
+   * Project Creation
     
 The project is using the code institude template [template](https://github.com/Code-Institute-Org/gitpod-full-template) by clicking 'Use this template'. Under Repository name I input Irisbodybuilding and checked the Include all branches checkbox. 
 I then navigated to the new [repository](https://github.com/fitabigail/irishbodybuilding). Open the Gitpod from Github my repository and open new workspace. On Gitpod I typedall my code.
