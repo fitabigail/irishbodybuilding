@@ -20,29 +20,29 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
 
 #### First Time Visitor Goals
 
-* As a First Time user, I want to easily understand the main purpose of the site.
-* As a First Time user, I want to be able to easily navigate throughout the site to find content.
-* As a First Time user, I want to view the website and content clearly on my mobile device.
-* As a First Time user, I want to find ways to follow the Irisbodybuilding on different social media platforms.
++ As a First Time user, I want to easily understand the main purpose of the site.
++ As a First Time user, I want to be able to easily navigate throughout the site to find content.
++ As a First Time user, I want to view the website and content clearly on my mobile device.
++ As a First Time user, I want to find ways to follow the Irisbodybuilding on different social media platforms.
 
-#### Returning Visitor Goals
+### Returning Visitor Goals
 
-* As a Returning user, I want to check in advance upcoming events.
-*As a Returning user, I want to get update coaches profiles.
-* As a Returning user, I want to contact the organisation so I can request more information.
++ As a Returning user, I want to check in advance upcoming events.
++ As a Returning user, I want to get update coaches profiles.
++ As a Returning user, I want to contact the organisation so I can request more information.
 
-#### Frequent Visitor Goals
+### Frequent Visitor Goals
 
-* As a Frequent user, I want to check to see if there are any new upcoming events.
-* As a Frequent user, I want to check to see if there are any new photos and media from the past competitons.
-* As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
++ As a Frequent user, I want to check to see if there are any new upcoming events.
++ As a Frequent user, I want to check to see if there are any new photos and media from the past competitons.
++ As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-### Design
+## Design
 
-#### Colour Scheme
+### Colour Scheme
 
 The two main colours used are Dark Grey ![ #252525]and an Orange ![#e67a16] with diffrent shades of them as these colours are on the same palette. A darker shade of 
-#### Typography
+### Typography
 The headers on all pages throughout the Website are using the **Oswald** font while the main text is using the **Roboto** font. 
 
 
@@ -205,12 +205,15 @@ The live Project can be found [here](https://fitabigail.github.io/irishbodybuild
       2. Easy to navigate and understand,
       3. I wanted the sources of informations to be reliable,and clear.
       
-    + Result
+        + Result
+    
       As a user I was able to  
+      
       1. I found it to be Visually appealing,
       2. I found it to be easy to navigate and understand,
       3. I could subscribe to newsletter,
-      4. I could contact, and send a query . 
+      4. I could contact, and send a query. 
+
 
     # Validator Testing
 
