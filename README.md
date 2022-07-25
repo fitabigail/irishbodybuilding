@@ -292,10 +292,11 @@ The following commands were used throughout the project:
 
 
 
-# Images for Project
+## Images for Project
 
  * Images obtained 
- * Hero Background Image: https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-gorak-1229356.jpg&fm=jpg
+ 
+ + Hero Background Image: https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-gorak-1229356.jpg&fm=jpg
  + Competitons Background Section : https://images.pexels.com/photos/896062/pexels-photo-896062.jpeg?cs=srgb&dl=pexels-dreamlens-production-896062.jpg&fm=jpg
  + Front Coach Icon: https://images.pexels.com/photos/9073247/pexels-photo-9073247.jpeg?cs=srgb&dl=pexels-wagner-robson-9073247.jpg&fm=jpg
  + Front Competition Calendar Icon : https://images.pexels.com/photos/5518867/pexels-photo-5518867.jpeg?cs=srgb&dl=pexels-michelle-tiemann-5518867.jpg&fm=jpg
@@ -315,7 +316,7 @@ The following commands were used throughout the project:
  + Gallery image 7: https://images.unsplash.com/photo-1632781297772-1d68f375d878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80;
  + Gallery image 8: https://images.unsplash.com/photo-1619947664010-b3e60071a3c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80;
  
- +  ### Note 
+   ### Note 
  * I'd like to thank my mentor Ronan McClelland for his guidance throughout my project. 
  * I would like to thank everyone for all and any assistance given during the development of my website. 
  * All information within this website is for education and training purposes only .
