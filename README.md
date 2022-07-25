@@ -12,12 +12,46 @@ The Irishbodybuilding website is a landing page for new and experienced bodybuil
 ![HOME PAGE](./assets/reademeimg/home-wireframe.png)
 
 
+*** 
+
+# User Experience Design
+
+### User stories
+
+#### First Time Visitor Goals
+
+* As a First Time user, I want to easily understand the main purpose of the site.
+* As a First Time user, I want to be able to easily navigate throughout the site to find content.
+* As a First Time user, I want to view the website and content clearly on my mobile device.
+* As a First Time user, I want to find ways to follow the Irisbodybuilding on different social media platforms.
+
+#### Returning Visitor Goals
+
+* As a Returning user, I want to check in advance upcoming events.
+*As a Returning user, I want to get update coaches profiles.
+* As a Returning user, I want to contact the organisation so I can request more information.
+
+#### Frequent Visitor Goals
+
+* As a Frequent user, I want to check to see if there are any new upcoming events.
+* As a Frequent user, I want to check to see if there are any new photos and media from the past competitons.
+* As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+### Design
+
+#### Colour Scheme
+
+The two main colours used are Dark Grey ![ #252525]and an Orange ![#e67a16] with diffrent shades of them as these colours are on the same palette. A darker shade of 
+#### Typography
+The headers on all pages throughout the Website are using the **Oswald** font while the main text is using the **Roboto** font. 
+
+
 # Existing Features
 
 
 * Navigation Bar
 
-    + A Featured on all four pages, the full responsive navigation bar includeslinks to the Logo, Home page, Calendar, Coaches, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
+    + A Featured on all five pages, the full responsive navigation bar includeslinks to the Logo, Home page, Calendar, Coaches, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
     + All navigations items has a color transition for 2s to improve user visual experience.
     + The navigation bar is giving a smooth navigation from page to page across all devices without having to revert back to previous page via the 'back' button.
    
@@ -103,10 +137,10 @@ At the bottom of each page the user can easy access the media icons for Facebook
 # Features Left to Implement
 
 + The user will be able to contact the coache via a contact form. The contact form will pop-up on clicking the contact button. 
++ Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
++ In order to implement the use of the proposed forum, signup and logins would have to be added.
 
-
-
-
+***
 
 
 
@@ -117,13 +151,29 @@ At the bottom of each page the user can easy access the media icons for Facebook
     + HTML is used to provide the structure and content of the website.
     + CSS is used via link to the HTML to provided style the pages.
     + Code Institute lessons and the Love Running assisting with my project.
-    + Gitpod used to code within and provided backups of all my code.
-    + GitHub for my repository and external project deployment.
-    + Google Fonts for my font choose for the project.
-    + Favicon.ico for adding a nice little personal touch to my page.
-    + W3S Schools for code assistance and information.
+    + [Gitpod](https://gitpod.io/) used to code within and provided backups of all my code.
+    + [GitHub](https://github.com/)for my repository and external project deployment.
+    + Google Chrome Developer Tools  to inspect page elements and help debug issues with the site layout    and test different CSS styles.
+    + [Google Fonts](https://fonts.google.com/) for my font choose for the project.
+    + [Font Awesome](https://fontawesome.com/) font awesome Icons are used for the Social media links contained in the Footer section of the website.
+    + [W3S Schools](https://www.w3schools.com/)for code assistance and information.
 
 # Testing
+
+### Test Strategy 
+
+#### Summary 
+
+Testing is required on Irishbodybuilding Responsive Website.
+
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
+All navigation links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
+
+All links to external websites must open in a new browser.
+
+Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
+
+The live Project can be found [here](https://fitabigail.github.io/irishbodybuilding/).</br>
 
  * Testing During development of the pages was done through the project to see how the project looked and felt
 
@@ -144,6 +194,7 @@ At the bottom of each page the user can easy access the media icons for Facebook
 | Contact Us form        |  Post user detailand query   | Click On | Query registred            |
 | Google Map             |  Get direction               | Click On | Got direction to address   |
  
+ 
 * User Testing
 
         + Expectations
@@ -152,7 +203,7 @@ At the bottom of each page the user can easy access the media icons for Facebook
       
       1. Be Visually appealing, 
       2. Easy to navigate and understand,
-      3. I wanted the sources of informations to be reliable, clear,
+      3. I wanted the sources of informations to be reliable,and clear.
       
     + Result
       As a user I was able to  
@@ -176,7 +227,40 @@ At the bottom of each page the user can easy access the media icons for Facebook
 
 ![HOME PAGE](./assets/reademeimg/lighthouse.png)
 
+### Issues and Resolutions to issues found during testing
+
+* Coaches Photos  loading issue on Coaches Page, this was fixed by storing the photos on Cloudinary.com and linked them on project.
+* Contact Us email address was not shrinking on mobile view, so decide to not displaythe address and email on mobile view using media query max-width 500px.
+* Spelling mistakes were found when proof reading, these were corrected.
+* For buttons and inputs was required labels and were fixed by adding area-label attribute.  
+
+***
+
+    # Deployment of Project
     
+    * Project Creation
+    
+The project is using the code institude template [template](https://github.com/Code-Institute-Org/gitpod-full-template) by clicking 'Use this template'. Under Repository name I input Irisbodybuilding and checked the Include all branches checkbox. 
+I then navigated to the new [repository](https://github.com/fitabigail/irishbodybuilding). Open the Gitpod from Github my repository and open new workspace. On Gitpod I typedall my code.
+
+The following commands were used throughout the project:
+
++ git add filename - This command was used to add fils to the staging area before commiting.
++ git commit -m *commit message explaining the updates* - This command was used to to commit changes to the local repository.
++ git push - This command is used to push all commited changes to the GitHub repository. 
+
+
+* Deployment was made possible by GitHub
+
+    + Initiated a repository in git :  https://fitabigail.github.io/irishbodybuilding/
+    + Created all folders and files and code project
+    + Go to GitHub website
+    + Go to my repository in the GitHub
+    + Go to Settings tab click on
+    + Go to GitHub Page and linking the main root to Master Branch 
+    + Once this is done the page will automatically create the ribbon with the http host page name that is been hosted by GitHub.
+    The live link can be found here :  https://fitabigail.github.io/irishbodybuilding/
+   
 
 
 # Credits
@@ -202,19 +286,7 @@ At the bottom of each page the user can easy access the media icons for Facebook
 * Contact Form design with CSS Flexbox | CSS Flexbox Layout https://www.youtube.com/watch?v=fQfAYUrggeU I have inspiration, and adapt it to my website.
 * Competitions home page was copied from here https://ribbff.com/about/
 
-# Deployment of Project
 
-* Deployment was made possible by GitHub
-
-    + Initiated a repository in git :  https://fitabigail.github.io/irishbodybuilding/
-    + Created all folders and files and code project
-    + Go to GitHub website
-    + Go to my repository in the GitHub
-    + Go to Settings tab click on
-    + Go to GitHub Page and linking the main root to Master Branch 
-    + Once this is done the page will automatically create the ribbon with the http host page name that is been hosted by GitHub.
-    The live link can be found here :  https://fitabigail.github.io/irishbodybuilding/
-   
 
 # Images for Project
 
@@ -240,6 +312,7 @@ At the bottom of each page the user can easy access the media icons for Facebook
  + Gallery image 8: https://images.unsplash.com/photo-1619947664010-b3e60071a3c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80;
  
  +  ### Note 
- * All information within this website is for education and training purposes only .
- * All code has been as much as possible credited to the source that the code came from 
+ * I'd like to thank my mentor Ronan McClelland for his guidance throughout my project. 
  * I would like to thank everyone for all and any assistance given during the development of my website. 
+ * All information within this website is for education and training purposes only .
+ * All code has been as much as possible credited to the source that the code came from.
