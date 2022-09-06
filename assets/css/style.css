@@ -1051,3 +1051,18 @@ text-transform: none;
       text-align: center;
    }
 }
+.scroll_btn{
+   position: fixed;
+   right:5rem;
+   bottom: 5rem;
+   width: 4.5rem;
+   height: 4rem;
+   background-color: #b3420e;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   color: antiquewhite;
+   box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
+   border-radius: 1rem;
+}
